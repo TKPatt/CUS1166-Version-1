@@ -29,9 +29,10 @@
       </component>
       <component id="5629a" class="javax.swing.JLabel" binding="WhatWouldYouDoLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Copperplate"/>
           <text value="What would you like to do?"/>
         </properties>
       </component>

@@ -27,7 +27,8 @@ public class OwnerForm {
             VehicleYeartextfield.setText("");
         });
         submitButton.addActionListener(e -> {
-            JOptionPane.showMessageDialog(panel1,"Submit button has been clicked");
+            JOptionPane.showMessageDialog(panel1,"Submit button is working");
+            //TODO: add logging function
         });
     }
 
