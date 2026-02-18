@@ -4,13 +4,12 @@ public class SelectRole {
     private JButton ownerRentVehicleButton;
     private JPanel panel1;
     private JButton clientSubmitJobButton;
-    private JTextField wouldWouldYouLikeTextField;
+    private JLabel WhatWouldYouDoLabel;
+
 
    /* private void createUIComponents() {
         // TODO: place custom component creation code here} */
     public SelectRole() {
-        wouldWouldYouLikeTextField.setEditable(false);
-        wouldWouldYouLikeTextField.setBorder(null);
 
          ownerRentVehicleButton.addActionListener(e -> {
              JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(panel1);
@@ -18,6 +17,7 @@ public class SelectRole {
              frame.setContentPane(new OwnerForm().getPanel());
              frame.pack();
              frame.setLocationRelativeTo(null);
+             JOptionPane.showMessageDialog(panel1, "Owner clicked");
                  });
          clientSubmitJobButton.addActionListener(e -> {
              JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(panel1);
@@ -30,5 +30,9 @@ public class SelectRole {
     }
     public JPanel getPanel() {
         return panel1;
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
